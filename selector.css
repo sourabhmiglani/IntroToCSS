@@ -1,0 +1,19 @@
+/* Class Selector many elements */
+.redText{
+    color:red;
+}
+
+.greenText{
+    color:green;
+}
+/* Id Selector one element*/
+#main{
+color:magenta;
+}
+/* Conditonal CSS only paragraphs with true draggable attribute will be colored blue*/
+p[draggable = true]{
+    color:blue
+}
+*{
+    color:red;
+}
